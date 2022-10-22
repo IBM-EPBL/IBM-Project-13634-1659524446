@@ -1,0 +1,1 @@
+https://cloud.ibm.com/objectstorage/crn%3Av1%3Abluemix%3Apublic%3Acloud-object-storage%3Aglobal%3Aa%2Fde99e7c2ceca4642b03c910e08f2cf24%3A90546140-893c-40ca-8922-01a0fd387d61%3A%3A?paneId=manage&bucket=uploadimage2001&bucketRegion=ams03&endpoint=s3.ams03.cloud-object-storage.appdomain.cloud
