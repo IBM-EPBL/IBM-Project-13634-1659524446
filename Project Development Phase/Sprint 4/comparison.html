@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />       
+    <title>Personal Expense Tracker</title>
+ </head>  
+ <style>
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 60%;
+      border: 1px solid #ddd;
+      margin-top: 100px;
+      margin-left: 200px;
+
+    }
+    
+    .head{
+        margin-top: 200px;
+        margin-left: 200px;
+    }
+    
+    th, td {
+      text-align: center;
+      padding: 16px;
+    }
+    
+    th:first-child, td:first-child {
+      text-align: left;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2
+    }
+    
+    .fa-check {
+      color: green;
+    }
+    
+    .fa-remove {
+      color: red;
+    }
+    </style>
+<body> 
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-circle"></i>
+                        <div class="title">Hello, Sowmiya</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="db.html">
+                        <i class="fas fa-home"></i>
+                        <div class="title">Home</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">
+                        <i class="fas fa-user"></i>
+                        <div class="title">My profile</div>
+                    </a>
+                </li>
+               
+                
+                <li>
+                    <a href="pie-chart.html">
+                        <i class="  fa-solid fa-chart-pie"></i>
+                        <div class="title">Graphical view</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="comparison.html">
+                        <i class="fa-solid fa-code-compare"></i>
+                        <div class="title">Compare</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="transaction.html">
+                        <i class="fas fa-rupee-sign"></i>
+                        <div class="title">Transactions</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="settings.html">
+                        <i class="fas fa-cog"></i>
+                        <div class="title">Settings</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="Help.html">
+                        <i class="fas fa-question"></i>
+                        <div class="title">Help</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+     <div class="main">
+            <div class="top-bar">
+                <div class="text"><i class="fas fa-piggy-bank"></i>   Personal Expense Tracker
+                 </div>              
+            </div> 
+          
+
+      <table>
+        <div class="head">
+        <h1>Compare your month wise expenses for better analysis</h1></div>
+        <tr>
+           <th style="width:50%">Expenses</th>
+           
+       <th>September<br><i class="fa-solid fa-caret-down" style="cursor: pointer;"></i></th>
+        <th>October<br><i class="fa-solid fa-caret-down"style="cursor: pointer;"></i></th>
+        </tr>
+       <tr>
+    <td>Entertainment</td>
+    <td>2,000</td>
+    <td>3,500</td>
+  </tr>
+  <tr>
+    <td>Food</td>
+    <td>10,000</td>
+    <td>9,000</td>
+  </tr>
+  <tr>
+    <td>Medical</td>
+    <td>1,500</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>Petrol</td>
+    <td>3,000</td>
+    <td>4,000</td>
+  </tr>
+  <tr>
+    <td>Rent</td>
+    <td>10,000</td>
+    <td>10,000</td>
+  </tr>
+</table>
+
+     
+    </div>
+</body>
