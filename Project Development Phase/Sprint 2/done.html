@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Expense Tracker</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    </head>
+  <style>
+     *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial;
+            }
+            body{
+                background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.businessnewsdaily.com/app/uploads/2022/04/04074506/Working-on-phone-and-laptop_Zephyr18.png);
+                background-size: auto;
+                
+                
+            }
+            header{
+                width:100%;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: fixed;
+                z-index: 99;
+                padding-left: 20px;
+              
+                
+            }
+            #chk1{
+                display: none;
+                 
+                 
+            }
+            i{
+                color: #fff;
+                cursor: pointer;
+            }
+            header .logo{
+                flex: 1;
+                color:#fff;
+                 
+                margin-left: 50px;
+                text-transform: uppercase;
+                font-size: 15px;
+            }
+            header .search-box{
+                flex: 1;
+                position: relative;
+            }
+            
+            header ul {
+                flex:2;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            header ul li{
+                list-style: none;
+            }
+            header ul li a{
+                text-decoration: none;
+                color:#fff;
+                font-weight: 600;
+                text-transform: uppercase;
+                padding: 10px 15px;
+            }
+            header ul li a:hover{
+                border-bottom: 2px solid cadetblue;
+            }
+            header .menu{
+                font-size: 2.5em;
+                display: none;
+            }
+            @media(max-width:1000px) {
+                .search-box button{
+                    position: absolute;
+                }
+                header ul{
+                    position: fixed;
+                    top:100px;
+                    right: -100%;
+                    background: rgba(0,0,0,0.5);
+                    height: calc(100vh - 100px);
+                    width:50%;
+                    flex-direction: column;
+                    align-items: center;
+                    transition: right 0.5s linear;
+                }
+                #chk1:checked ~ ul{
+                    right: 0;
+                    
+                }
+              
+            }
+            
+            
+     
+            form{
+                background-color: rgb(211, 203, 203);
+                max-width:700px;
+                height:400px;
+                padding-right:50px;
+                margin-top: 10%;
+                margin-left: 700px;
+                margin-right: 160px;
+                font-size: large;
+                border: 1px;   
+                text-align: center;
+            }
+            .form-control{
+                font-weight: 500;
+                font-size: 1ch;
+                font-family: 'Times New Roman';
+                margin-right: 50px;
+                
+            }
+            input{
+                padding: 5px 20px ;
+                color:none;
+            }
+            h1{
+                font-family:'Times New Roman' ;
+                font-weight: 600;
+                margin-left: 10px;
+                margin-top: 10px;
+                font-size: 40px;
+                color:white;
+            }
+            h2{
+                font-size: 2ch;
+                font-weight: 300;
+                font-family: 'Times New Roman';
+                margin-right: px;
+                margin-left: 90px;
+                padding-right:80px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            h5{
+                text-align: center;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+            button{
+                padding: 5px 30px;
+                margin-right:50px;
+                margin-top: 20px;
+                margin-left:100px;
+                color: rgb(253, 253, 253);
+                background-color: rgb(42, 42, 126);
+            }
+              
+            ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+            color:    rgb(48, 47, 47);
+            font-size: 50px; }
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <input type ="checkbox" name ="" id ="chk1">
+            <div></div><h1>Personal Expense <br>
+                Tracker</h1></div>
+                <ul style="margin-left: 500px;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </header><br>
+           <form id="form">
+            <img src="logo.webp" alt="Email logo" style="width:13%;margin-top:5px;"><p style="float:left;margin-right:5px;margin-left:20px;margin-top:12px"><br><br>
+            <h2> Confirm your Email</h2><br> 
+
+            
+                <div class=tick><h5>You have successfully registered<br><br><br></div><i class="fa-sharp fa-solid fa-circle-check" style="color: green;size: 50px;"></style></i><br> <br> </h5>
+            </div><br>
+            
+        
+        </form>
+        
+    </body>
+</html>
